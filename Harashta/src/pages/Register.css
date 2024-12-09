@@ -1,0 +1,74 @@
+/* Register.css */
+.login-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f8f9fa;
+}
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.auth-input {
+  margin-bottom: 20px;
+}
+
+.auth-button {
+  background-color: #d32f2f;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.auth-button:hover {
+  background-color: #c62828;
+}
+
+.switch-auth {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.switch-auth a {
+  color: #d32f2f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.switch-auth a:hover {
+  text-decoration: underline;
+}

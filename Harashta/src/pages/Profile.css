@@ -1,0 +1,36 @@
+.profile-header {
+  padding: 2rem;
+  text-align: center;
+  background: var(--ion-color-light);
+}
+
+.profile-header ion-avatar {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 1rem;
+}
+
+.profile-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--ion-color-dark);
+}
+
+.profile-header p {
+  margin: 0.5rem 0 0;
+  color: var(--ion-color-medium);
+}
+
+ion-list {
+  padding: 1rem 0;
+}
+
+ion-item {
+  --padding-start: 1rem;
+  --inner-padding-end: 1rem;
+}
+
+ion-icon {
+  color: var(--ion-color-primary);
+  font-size: 1.2rem;
+}

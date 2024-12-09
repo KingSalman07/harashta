@@ -1,0 +1,51 @@
+.promo-slides {
+    height: 250px;
+  }
+  
+  .swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .featured-packages {
+    padding: 1rem;
+  }
+  
+  .featured-packages h2 {
+    font-size: 1.5rem;
+    color: var(--ion-color-dark);
+    margin: 1rem 0;
+    padding-left: 0.5rem;
+  }
+  
+  ion-card {
+    margin: 1rem;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  ion-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  ion-card-header {
+    padding: 1rem;
+  }
+  
+  ion-card-content {
+    padding: 0 1rem 1rem;
+  }
+  
+  /* Swiper pagination customization */
+  .swiper-pagination-bullet {
+    background: var(--ion-color-light);
+    opacity: 0.8;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: var(--ion-color-primary);
+  }
